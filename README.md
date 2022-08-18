@@ -3,8 +3,9 @@ Ansible Playbook to Install Ubuntu Server on a Pi
 
 This is just one way how to use Ansible to install Ubuntu Server on a Raspberry Pi.
 
-##################################
-Preconditions to use this Playbook:
+###########################################
+### Preconditions to use this Playbook: ###
+###########################################
 You need:
   -A Host System (e.g Ubuntu VM). In my case i use a VM on Unraid with PopOs! 
    The System has installed:
