@@ -7,18 +7,18 @@ This is just one way how to use Ansible to install Ubuntu Server on a Raspberry 
 ## Preconditions to use this Playbook:
 
 You need:
- - A Host System (e.g Ubuntu VM). In my case i use a VM on Unraid with ([PopOs!](https://pop.system76.com/))
-   
+ - A Workstation System (e.g Ubuntu VM). In my case i use a VM on Unraid with ([PopOs!](https://pop.system76.com/))
+
    The System has installed:
       - Openssh
       - Atom Editor
-      - Github Client (e.g GitKraken) 
-      
- - one or mor Clients. This cut be VM's or in my case a Raspberry Pi.
+      - Github Client (e.g GitKraken)
+
+ - One or mor Hosts. This cut be VM's or in my case a Raspberry Pi.
 
    The Pi need following Preconditions:
-      - needs a valid IP Adresse ( you must find the Pi in your network e.g. on you router) 
-      - The Raspberry Pi needs a File called ssh directly on the SD Card to active SSH. 
+      - needs a valid IP Adresse ( you must find the Pi in your network e.g. on you router)
+      - The Raspberry Pi needs a File called ssh directly on the SD Card to active SSH.
 
 
 
