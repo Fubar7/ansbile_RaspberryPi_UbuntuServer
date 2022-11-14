@@ -14,7 +14,7 @@ You need:
       - Atom Editor
       - Github Client (e.g GitKraken)
 
- - One or mor Hosts. This cut be VM's or in my case a Raspberry Pi.
+ - One or mor Hosts. This may be VM's or in my case a Raspberry Pi.
 
    The Pi need following Preconditions:
       - needs a valid IP Adresse ( you must find the Pi in your network e.g. on you router)

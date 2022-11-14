@@ -1,0 +1,6 @@
+# Varialben für Raspberry Pi
+time_zone: Europe/Berlin
+
+# Variablen für network
+static_ip_and_mask: '192.168.175.199/24'
+default_gateway: '192.168.175.1'

@@ -1,14 +1,14 @@
 ---
 
-- name: 'Change the local Setting. Timezone, Layout and Language'
+- name: Change the local Setting. Timezone, Layout and Language
   timezone:
     name: "{{time_zone}}"
-    
-- name: 'Template out Netplan YAML to configure networking'
-  template: 
+
+- name: Networksettings - Template out Netplan YAML to configure networking.
+  template:
     src: ./templates/99_config.yaml.tpl
     dest: /etc/netplan/99_config.yaml
-    
+
 - name: 'Applying Netplan Configuration'
   command: netplan apply
   become: yes
@@ -19,7 +19,7 @@
     upgrade: dist
     update_cache: yes
   become: yes
- 
+
 - name: Update all packages to latest versions
   apt:
     name: "*"
